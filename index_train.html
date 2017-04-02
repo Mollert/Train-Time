@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Time</title>
+
+	<meta charset="utf-8">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style_train.css">
+
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:600" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row for-pic">			
+			<div class="col-md-3">
+				<div class="pic-left">
+					<img src="side_view_l.png" alt="Left Pic" width=100% height="405">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="title">
+					<p>Trains Running on Time</p>
+				</div>
+				<div class="current-time">
+					<p>Official Train Time is : <span>XX:XX</span>
+				</div>
+				<div class="pic-center">
+					<img src="tracks.png" alt="Center Pic" width=100% height=auto>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="pic-right">
+					<img src="side_view_r.png" alt="Right Pic" width=100% height="405">
+				</div>
+			</div>			
+		</div>
+		<div class="row show-schedule">		
+			<div class="panel panel-default">
+ 	 			<div class="panel-heading">
+  	 				 <h3 class="panel-title">The Train Schedule and Times</h3>
+  				</div>
+ 		 		<div class="panel-body">
+ 		  			<table class="table table-striped">
+						<tr>
+							<th>Destination</th>
+							<th>Arriving</th>
+							<th>Minutes Away from Arrival</th>
+							<th>Runs Every __ Minutes</th>
+						</tr>
+						<tr class=entry>
+							<td>xxx</td>
+							<td>xxx</td>
+							<td>xxx</td>
+							<td>xxx</td>
+						</tr>
+						<tr>
+							<td>xxx</td>
+							<td>xxx</td>
+							<td>xxx</td>
+							<td>xxx</td>
+						</tr>						
+ 	  				</table>
+ 	 			</div>
+ 	 		</div>
+		</div>
+		<div class="row">	
+			<div class="panel panel-default">
+ 	 			<div class="panel-heading">
+ 	  				 <h3 class="panel-title">Add a Train to the Schedule</h3>
+  				</div>
+  				<div class="title-margin"></div>
+				<form class="form-horizontal">
+ 					<div class="form-group">
+ 						<label for="destination" class="col-md-3 control-label">Destination</label>
+ 						<div class="col-md-8">
+ 							<input type="text" class="form-control" id="trainName" placeholder="Where is it Going">
+ 						</div>
+ 						<div class="col-md-1"></div>
+					</div>
+					<div class="form-group">
+ 						<label for="first-train-time" class="col-md-3 control-label">First Train of the Day</label>
+						<div class="col-md-8">
+ 							<input type="text" class="form-control" id="first-train-time" placeholder="In Military Time - hh:mm">
+ 						</div>
+ 						<div class="col-md-1"></div>
+					</div>
+					<div class="form-group">
+ 						<label for="frequency" class="col-md-3 control-label">Frequency</label>
+ 						<div class="col-md-8">
+ 							<input type="text" class="form-control" id="frequency" placeholder="How Often - in Minutes">
+ 						</div>
+ 						<div class="col-md-1"></div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-offset-3 col-md-9">
+							<button type="submit" class="btn btn-default">Submit</button>
+						</div>
+					</div>
+				</form>
+  			</div>
+  		</div>
+  	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="jscript_train.js"></script>
+
+</body>
+</html>

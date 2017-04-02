@@ -1,0 +1,68 @@
+body {
+background-color: #00BFFF;
+font-family: 'Palanquin Dark', sans-serif;
+}
+
+.for-pic {
+	border-right: 6px solid black;
+	border-left: 6px solid black;
+	border-bottom: 6px solid black;
+	margin-top: 10px;
+}
+
+.col-md-3,
+.col-md-6 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.pic-left {
+	border-top: 6px solid black;
+	border-right: 6px solid black;
+}
+
+.pic-center {
+	border-top: 6px solid black;
+	margin-top: 19px;
+}
+
+.pic-right {
+	border-top: 6px solid black;
+	border-left: 6px solid black;
+} 
+
+.title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.current-time {
+	font-size: 20px;
+	text-align: center;
+}
+
+.show-schedule {
+	margin-top: 16px;
+}
+
+.panel-default {
+	border-right: 6px solid black;
+	border-left: 6px solid black;
+	border-top: 6px solid black;
+	border-bottom: 6px solid black;
+	border-radius: 0px;
+}
+
+.title-margin {
+	margin-top: 15px;
+}
+
+.btn-default {
+	text-align: center;
+	font-size: 20px;
+	background-color: #00BFFF;
+	padding:  2px 20px 2px 20px;
+	border: 2px solid black;
+
+
+}
