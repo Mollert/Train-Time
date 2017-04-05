@@ -23,7 +23,7 @@ font-family: 'Palanquin Dark', sans-serif;
 
 .pic-center {
 	border-top: 6px solid black;
-	margin-top: 19px;
+	margin-top: 72px;
 }
 
 .pic-right {
@@ -63,6 +63,4 @@ font-family: 'Palanquin Dark', sans-serif;
 	background-color: #00BFFF;
 	padding:  2px 20px 2px 20px;
 	border: 2px solid black;
-
-
 }

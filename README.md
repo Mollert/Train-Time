@@ -1,1 +1,1 @@
-First commit-HTML and CSS are done
+Spent a lot of time on the HTML getting border and center image to line up in Bootstrap.  Still do not have a good plan for the future.  CSS was fun.  The web-site looks OK.  Could not have done the firebase part of the assignment without watching the video.  I just do not have time to read and absorb all the syntax.  Only way is to do it over and over.  Not impressed with mommentJS.  Seems it handles a difficult subject but could offer more options.  Pack it up and on to the next . . . .
